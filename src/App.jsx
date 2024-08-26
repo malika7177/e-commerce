@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import Aos from "aos";
+import TopProducts from "./components/TopProducts/TopProducts";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
     <Navbar />
     <Hero />
     <Products />
+    <TopProducts />
   </div>;
 }
 
