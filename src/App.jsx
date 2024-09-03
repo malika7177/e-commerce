@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import Aos from "aos";
 import TopProducts from "./components/TopProducts/TopProducts";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
     <Hero />
     <Products />
     <TopProducts />
+    <Banner />
   </div>;
 }
 
